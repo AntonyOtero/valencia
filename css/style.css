@@ -14,6 +14,28 @@
 
 body {
   font-family: "HK Grotesk";
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.5;
+  background-color: #000000;
+  color: #eeeeee;
+}
+
+/*///////////////////
+////// HEADER //////
+//////////////////*/
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav img {
+  visibility: hidden;
 }
