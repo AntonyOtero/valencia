@@ -39,3 +39,24 @@ header nav {
 header nav img {
   visibility: hidden;
 }
+
+/*//////////////////////
+/////// TAGLINE ///////
+/////////////////////*/
+
+/*//////////////////
+////// SHAPES //////
+//////////////////*/
+
+.circle {
+  width: 144px;
+  height: 144px;
+  background-color: #ffd363;
+  border-radius: 50%;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #738DA0;
+}
