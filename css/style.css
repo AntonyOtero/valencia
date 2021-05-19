@@ -19,3 +19,23 @@ body {
   background-color: #000000;
   color: #eeeeee;
 }
+
+/*///////////////////
+////// HEADER //////
+//////////////////*/
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav img {
+  visibility: hidden;
+}
