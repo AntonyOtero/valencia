@@ -12,6 +12,13 @@
     url("../assets/hkgrotesk-bold-webfont.woff") format("woff");
 }
 
+:root {
+  --color-peach: #ecc7ab;
+  --color-orange: #d9a724;
+  --color-yellow: #ffd363;
+  --color-aqua: #738da0;
+}
+
 body {
   font-family: "HK Grotesk";
   font-size: 18px;
@@ -38,4 +45,24 @@ header nav {
 
 header nav img {
   visibility: hidden;
+}
+
+/* Menu */
+
+.menu {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: var(--color-yellow);
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
