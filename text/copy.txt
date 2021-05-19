@@ -1,0 +1,58 @@
+Full site:
+Font Body size: 24px with 1.5 line height
+Heading size: 120px with 0.9 line height
+Footer links: 60px with 1.5 line  height
+
+Fonts: HK Grotesk Semibold
+
+Copy the code from fonts.css into your style.css, and then use the fonts like this:
+
+body {
+  font-family: 'hk_grotesksemibold', sans-serif;
+}
+
+/* for the bold version */
+h2 {
+  font-family: 'hk_groteskbold', sans-serif;
+}
+
+Colors:
+Peach: #ECC7AB
+Orange: #D9A724 Aqua: #738DA0
+Yellow: #FFD363
+
+Width of page: 100%
+
+Mobile:
+
+Font Body size: 20px with 1.25 line height
+Heading size: 60px with 0.9 line height
+Footer links: 20px with 1.25 line  height
+
+Page padding left and right 40px
+
+-----
+
+PAGE SECTIONS
+
+Clothes as natural as you are
+
+Doing one thing well.
+
+We make clothes and that’s it.
+Nothing else. No distractions.
+Nothing steals our focus.
+
+View Lookbooks
+
+OVERLAY
+
+Home
+ Lookbooks
+Store
+Contact
+
+Facebook
+ Twitter 
+Instagram
+Tumblr

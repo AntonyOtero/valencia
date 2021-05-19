@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "HK Grotesk";
+  font-weight: 600;
+  src: url("../assets/hkgrotesk-semibold-webfont.woff2") format("woff2"),
+    url("../assets/hkgrotesk-semibold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  src: url("../assets/hkgrotesk-bold-webfont.woff2") format("woff2"),
+    url("../assets/hkgrotesk-bold-webfont.woff") format("woff");
+}
+
+body {
+  font-family: "HK Grotesk";
+  font-size: 24px;
+  line-height: 1.5;
+}
