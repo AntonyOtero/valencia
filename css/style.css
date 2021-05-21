@@ -136,6 +136,7 @@ header nav img {
   justify-content: right;
   align-items: center;
   position: relative;
+  margin-bottom: 240px;
 }
 
 .one-thing img {
@@ -169,6 +170,18 @@ header nav img {
 .one-thing .square {
   right: 12px;
   transform: translateX(-50%);
+}
+
+/*////////////////////////////
+///////// LOOKBOOKS /////////
+///////////////////////////*/
+
+.lookbooks {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 680px;
+  background: center / cover no-repeat url(../assets/image_3.jpeg);
 }
 
 /*//////////////////
