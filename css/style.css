@@ -205,6 +205,59 @@ header nav img {
   background-color: #738DA0;
 }
 
+/*////////////////////////////////////////////////////
+///////////////// SPRING COLLECTION /////////////////
+///////////////////////////////////////////////////*/
+
+.collection {
+  display: grid;
+  place-items: center;
+  padding: 240px 0;
+  position: relative;
+}
+
+.collection img {
+  width: 900px;
+}
+
+.collection h2 {
+  position: absolute;
+  width: 600px;
+  bottom: 0;
+  text-align: center;
+  line-height: 1;
+}
+
+.collection .circle {
+  top: 160px;
+  right: 400px;
+}
+
+.collection .square {
+  top: 50%;
+  left: 225px;
+  transform: translateY(-50%);
+}
+
+/*///////////////////
+////// FOOTER //////
+//////////////////*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 368px;
+  padding-bottom: 50px;
+  font-size: 60px;
+  line-height: 1.5;
+  background: top / cover no-repeat url(../assets/footer.svg);
+}
+
+footer a {
+  margin-right: 35px;
+}
+
 /*////////////////////////////
 ///////// UTILITIES /////////
 ///////////////////////////*/
