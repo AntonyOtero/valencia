@@ -127,6 +127,50 @@ header nav img {
   transform: translateY(50%);
 }
 
+/*////////////////////////////
+///////// ONE-THING /////////
+///////////////////////////*/
+
+.one-thing {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+}
+
+.one-thing img {
+  margin-right: 162px;
+  width: 660px;
+}
+
+.one-thing .copy {
+  position: absolute;
+  right: 745px;
+}
+
+.one-thing h2 {
+  margin: 0;
+  width: 561px;
+}
+
+.one-thing p {
+  margin: 66px 0 0;
+  width: 350px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.one-thing .circle {
+  top: 120px;
+  right: 678px;
+  transform: translateX(-50%);
+}
+
+.one-thing .square {
+  right: 12px;
+  transform: translateX(-50%);
+}
+
 /*//////////////////
 ////// SHAPES //////
 //////////////////*/
