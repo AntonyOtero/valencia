@@ -80,6 +80,7 @@ header nav img {
   height: 100vh;
   text-align: right;
   transform: translateX(100%);
+}
 
 .menu nav {
   display: flex;
