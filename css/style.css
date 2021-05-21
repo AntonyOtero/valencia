@@ -20,11 +20,22 @@
 }
 
 body {
+  margin: 0;
   font-family: "HK Grotesk";
   font-size: 18px;
   line-height: 1.5;
-  background-color: #000000;
-  color: #eeeeee;
+  background-color: #ecc7ab;
+  color: #fff;
+}
+
+h2 {
+  font-size: 120px;
+  line-height: 0.9;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /*///////////////////
@@ -32,37 +43,115 @@ body {
 //////////////////*/
 
 header {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
 }
 
 header h1 {
-  float: left;
-}
-
-header nav {
-  float: right;
+  margin: 0;
 }
 
 header nav img {
   visibility: hidden;
 }
 
-/* Menu */
+.menu-toggle {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.menu-toggle img {
+  display: none;
+}
+
+/* MENU  */
 
 .menu {
-  display: none;
-  /* display: flex; */
-  flex-direction: column;
-  justify-content: center;
+  padding: 0 53px 0 130px;
   position: fixed;
+  display: flex;
+  justify-content: right;
+  align-items: center;
   top: 0;
   right: 0;
-  height: 100vh;
   background-color: var(--color-yellow);
-}
+  height: 100vh;
+  text-align: right;
+  transform: translateX(100%);
 
 .menu nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+/*//////////////////////
+/////// TAGLINE ///////
+/////////////////////*/
+
+.tagline {
+  position: relative;
+  padding-right: 570px;
+  max-width: 928px;
+  margin: 0 auto 195px auto;
+  box-sizing: border-box;
+}
+
+.tagline img {
+  max-width: 430px;
+}
+
+.tagline h2 {
+  width: 570px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-28px, -50%);
+  font-size: 120px;
+  line-height: 0.9;
+}
+
+.tagline .circle {
+  top: 60px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.tagline .square {
+  bottom: 0;
+  left: 180px;
+  transform: translateY(50%);
+}
+
+/*//////////////////
+////// SHAPES //////
+//////////////////*/
+
+.shape {
+  position: absolute;
+}
+
+.circle {
+  width: 144px;
+  height: 144px;
+  background-color: #d9a724;
+  border-radius: 50%;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #738DA0;
+}
+
+/*////////////////////////////
+///////// UTILITIES /////////
+///////////////////////////*/
+
+.tr {
+  box-sizing: border-box;
+  border: 5px dashed red;
 }
