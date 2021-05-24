@@ -126,25 +126,20 @@ header nav img {
 ///////////////////////////*/
 
 .one-thing {
-  display: grid;
-  place-content: center;
+  display: flex;
   position: relative;
-  margin-bottom: 240px;
-}
-
-.one-thing img {
-  margin-right: 162px;
-  width: 660px;
+  max-width: 1220px;
+  margin: 0 auto 240px auto;
+  transform: translateX(-75px);
 }
 
 .one-thing .copy {
-  position: absolute;
-  left: 50%;
+ transform: translate(85px, 50%);
 }
 
 .one-thing h2 {
   margin: 0;
-  width: 561px;
+  width: 560px;
 }
 
 .one-thing p {
@@ -154,15 +149,21 @@ header nav img {
   line-height: 1.5;
 }
 
+.one-thing img {
+  max-width: 660px;
+}
+
+
 .one-thing .circle {
   top: 120px;
-  right: 678px;
-  transform: translateX(-50%);
+  right: 660px;
+  transform: translateX(50%);
 }
 
 .one-thing .square {
-  right: 12px;
-  transform: translateX(-50%);
+  bottom: 120px;
+  right: 0;
+  transform: translateX(50%);
 }
 
 /*////////////////////////////
