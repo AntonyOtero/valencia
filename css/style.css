@@ -88,40 +88,34 @@ header nav img {
   align-items: flex-end;
 }
 
-/*//////////////////////
-/////// TAGLINE ///////
-/////////////////////*/
+/*/////////////
+//// HERO ////
+////////////*/
 
-.tagline {
+.hero {
+  display: flex;
   position: relative;
-  padding-right: 570px;
   max-width: 928px;
   margin: 0 auto 195px auto;
-  box-sizing: border-box;
 }
 
-.tagline img {
+.hero img {
   max-width: 430px;
 }
 
-.tagline h2 {
+ .hero h2 {
   width: 570px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(-28px, -50%);
-  font-size: 120px;
-  line-height: 0.9;
-}
+  margin: 0 0 0 -100px;
+  transform: translateY(25%);
+ }
 
-.tagline .circle {
+.hero .circle {
   top: 60px;
   left: 0;
   transform: translateX(-50%);
 }
 
-.tagline .square {
+.hero .square {
   bottom: 0;
   left: 180px;
   transform: translateY(50%);
@@ -132,9 +126,8 @@ header nav img {
 ///////////////////////////*/
 
 .one-thing {
-  display: flex;
-  justify-content: right;
-  align-items: center;
+  display: grid;
+  place-content: center;
   position: relative;
   margin-bottom: 240px;
 }
@@ -146,7 +139,7 @@ header nav img {
 
 .one-thing .copy {
   position: absolute;
-  right: 745px;
+  left: 50%;
 }
 
 .one-thing h2 {
