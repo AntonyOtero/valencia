@@ -72,13 +72,15 @@ header nav img {
   padding: 0 53px 0 130px;
   position: fixed;
   display: flex;
-  justify-content: right;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   top: 0;
   right: 0;
   background-color: var(--color-yellow);
   height: 100vh;
   text-align: right;
+  z-index: 2;
   transform: translateX(100%);
 }
 
@@ -86,6 +88,18 @@ header nav img {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.menu .page-links {
+  margin-bottom: 140px;
+  font-size: 120px;
+  line-height: 1;
+}
+
+.menu .social-links {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 46px;
 }
 
 /*/////////////
@@ -191,7 +205,7 @@ header nav img {
 }
 
 .collection img {
-  max-width: 900px;
+  max-width: 100%;
 }
 
 .collection h2 {
@@ -263,4 +277,121 @@ footer a {
 .tr {
   box-sizing: border-box;
   border: 5px dashed red;
+}
+
+/*////////////////////////////////////////
+///////////// MEDIA QUERIES /////////////
+///////////////////////////////////////*/
+
+@media screen and (max-width: 1250px) {
+  
+  h2 {
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  /*/////////////////// HEADER //////////////////*/
+
+  header {
+    /* background-color: red; */
+  }
+
+  /*///////////////// HERO ////////////////*/
+
+  .hero {
+    justify-content: center;
+    position: relative;
+    max-width: 620px;
+    margin-bottom: 130px;
+  }
+  
+  .hero img {
+    max-width: 288px;
+  }
+  
+   .hero h2 {
+    width: 380px;
+    margin: 0 0 0 -66.66px;
+    transform: translateY(25%);
+   }
+  
+  .hero .circle {
+    top: 60px;
+    left: 20px;
+  }
+  
+  .hero .square {
+    bottom: 0;
+    left: 180px;
+  }
+
+  /*///////// ONE-THING /////////*/
+  
+  .one-thing {
+    justify-content: center;
+    width: 814px;
+    margin-bottom: 160px;
+  }
+  
+  .one-thing h2 {
+    width: 374px;
+  }
+  
+  .one-thing p {
+    margin: 44px 0 0;
+    width: 325px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .one-thing img {
+    max-width: 440px;
+  }
+  
+  .one-thing .circle {
+    top: 25px;
+    right: 440px;
+    transform: translateX(50%);
+  }
+
+  /*///////// LOOKBOOKS /////////*/
+
+  .lookbooks {
+    height: 454px;
+  }
+
+  /*///////////////// SPRING COLLECTION /////////////////*/
+
+  .collection {
+    max-width: 600px;
+    margin: 160px auto 280px auto;
+  }
+
+  .collection h2 {
+    width: 400px;
+  }
+
+  /*////// FOOTER //////*/
+
+  footer {
+    height: 246px;
+    padding: 15px 0;
+    font-size: 40px;
+  }
+  
+  footer a {
+    margin-right: 35px;
+  }
+
+  /*////// SHAPES //////*/
+
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .square {
+    width: 75px;
+    height: 75px;
+  }
 }
