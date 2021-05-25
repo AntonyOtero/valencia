@@ -293,7 +293,7 @@ footer a {
   /*/////////////////// HEADER //////////////////*/
 
   header {
-    /* background-color: red; */
+    padding: 26.8px 33.4px;
   }
 
   /*///////////////// HERO ////////////////*/
@@ -393,5 +393,68 @@ footer a {
   .square {
     width: 75px;
     height: 75px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  
+  h2 {
+    font-size: 80px;
+    line-height: 1;
+  }
+
+  /*///////////////// HERO ////////////////*/
+  
+  .hero img {
+    max-width: 288px;
+  }
+  
+   .hero h2 {
+    width: 380px;
+    margin: 0 0 0 -66.66px;
+    transform: translateY(25%);
+   }
+  
+  .hero .circle {
+    left: 10px;
+  }
+  
+  /*///////// ONE-THING /////////*/
+  
+  .one-thing {
+    width: 594px;
+  }
+
+  .one-thing .copy {
+    transform: translate(45px, 35%);
+   }
+
+  .one-thing h2 {
+    width: 374px;
+  }
+  
+  .one-thing p {
+    margin: 22px 0 0;
+    line-height: 1.3;
+  }
+  
+  .one-thing img {
+    max-width: 220px;
+  }
+  
+  .one-thing .circle {
+    right: 220px;
+  }
+
+  /*///////// LOOKBOOKS /////////*/
+
+  .lookbooks {
+    height: 227px;
+  }
+
+  /*////// FOOTER //////*/
+
+  footer {
+    height: 184.5px;
   }
 }
