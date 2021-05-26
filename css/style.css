@@ -60,6 +60,7 @@ header nav img {
 .menu-toggle {
   font-size: 12px;
   line-height: 1.2;
+  z-index: 10;
 }
 
 .menu-toggle img {
@@ -82,6 +83,7 @@ header nav img {
   text-align: right;
   z-index: 2;
   transform: translateX(100%);
+  transition: 0.5s;
 }
 
 .menu nav {
@@ -277,6 +279,10 @@ footer a {
 .tr {
   box-sizing: border-box;
   border: 5px dashed red;
+}
+
+.is-open {
+  transform: translateX(0);
 }
 
 /*////////////////////////////////////////
