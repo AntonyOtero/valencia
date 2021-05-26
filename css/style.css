@@ -283,6 +283,10 @@ footer a {
   border: 5px dashed red;
 }
 
+.menu-open {
+  overflow: hidden;
+}
+
 .is-open {
   transform: translateX(0);
 }
