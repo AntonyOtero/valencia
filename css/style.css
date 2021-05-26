@@ -552,6 +552,18 @@ footer a {
     width: 130px;
   }
 
+  /*//// MENU ////*/
+
+  .menu {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .menu .page-links {
+    font-size: 60px;
+    line-height: 0.9;
+  }
+
   /*//// HERO ////*/
 
   .hero {
@@ -582,6 +594,14 @@ footer a {
     top: 50%;
     right: 0;
     transform: translateX(50%);
+  }
+
+  .hero:hover img {
+    transform: rotate(-10deg);
+  }
+
+  .hero:hover h2 {
+    transform: translateY(-50%) scale(115%);
   }
 
   /*///////// ONE-THING /////////*/
@@ -625,6 +645,15 @@ footer a {
     transform: translateX(50%);
   }
 
+  .one-thing:hover img {
+    transform: rotate(5deg);
+  }
+
+  .one-thing:hover .copy {
+    transform: translate(0, -50%) scale(90%);
+    z-index: 2;
+}
+
   /*///////////////// SPRING COLLECTION /////////////////*/
 
   .collection {
@@ -650,6 +679,11 @@ footer a {
     top: 50%;
     left: 40px;
     transform: translateY(-50%);
+  }
+
+  .collection:hover h2 {
+    transform: translateY(-200%) scale(90%);
+    opacity: 0.8;
   }
 
   /*////// FOOTER //////*/
