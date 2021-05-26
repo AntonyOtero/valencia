@@ -36,6 +36,12 @@ h2 {
 a {
   text-decoration: none;
   color: #fff;
+  border-bottom: 3px solid transparent;
+  transition: 0.25s;
+}
+
+a:hover {
+  border-bottom: 3px solid #fff;
 }
 
 /*///////////////////
