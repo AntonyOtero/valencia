@@ -58,12 +58,15 @@ header nav img {
 }
 
 .menu-toggle {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.2;
+  z-index: 10;
 }
 
-.menu-toggle img {
-  display: none;
+.menu-toggle a {
+  margin-left: 10px;
 }
 
 /* MENU  */
@@ -82,6 +85,7 @@ header nav img {
   text-align: right;
   z-index: 2;
   transform: translateX(100%);
+  transition: 0.5s;
 }
 
 .menu nav {
@@ -289,6 +293,18 @@ footer a {
   border: 5px dashed red;
 }
 
+.menu-open {
+  overflow: hidden;
+}
+
+.is-open {
+  transform: translateX(0);
+}
+
+.is-hidden {
+  display: none;
+}
+
 /*///////////////////////////////
 ////////// ANIMATIONS //////////
 //////////////////////////////*/
@@ -324,7 +340,7 @@ footer a {
 
 .collection:hover h2 {
   transform: translateY(-50%) scale(90%);
-  opacity: 0.8;;
+  opacity: 0.8;
 }
 
 /*////////////////////////////////////////
