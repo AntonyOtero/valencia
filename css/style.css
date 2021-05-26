@@ -119,12 +119,14 @@ header nav img {
 
 .hero img {
   max-width: 430px;
+  transition: 0.5s;
 }
 
  .hero h2 {
   width: 570px;
   margin: 0 0 0 -100px;
   transform: translateY(25%);
+  transition: 0.5s;
  }
 
 .hero .circle {
@@ -153,6 +155,8 @@ header nav img {
 
 .one-thing .copy {
  transform: translate(85px, 50%);
+ transition: 0.5s;
+ z-index: 2;
 }
 
 .one-thing h2 {
@@ -169,6 +173,7 @@ header nav img {
 
 .one-thing img {
   max-width: 660px;
+  transition: 0.5s;
 }
 
 
@@ -196,6 +201,10 @@ header nav img {
   background: center / cover no-repeat url(../assets/image_3.jpeg);
 }
 
+.lookbooks h2 {
+  transition: 0.5s;
+}
+
 /*////////////////////////////////////////////////////
 ///////////////// SPRING COLLECTION /////////////////
 ///////////////////////////////////////////////////*/
@@ -220,6 +229,7 @@ header nav img {
   text-align: center;
   line-height: 1;
   transform: translateY(50%);
+  transition: 0.5s;
 }
 
 .collection .circle {
@@ -293,6 +303,44 @@ footer a {
 
 .is-hidden {
   display: none;
+}
+
+/*///////////////////////////////
+////////// ANIMATIONS //////////
+//////////////////////////////*/
+
+/*///////////////// HERO ////////////////*/
+
+.hero:hover img {
+  transform: rotate(-10deg);
+}
+
+.hero:hover h2 {
+  transform: translateY(25%) scale(115%);
+}
+
+/*///////// ONE-THING /////////*/
+
+.one-thing:hover img {
+  transform: rotate(5deg);
+}
+
+.one-thing:hover .copy {
+  transform: translate(85px, 25%) scale(90%);
+  z-index: 2;
+} 
+
+/*///////// LOOKBOOKS /////////*/
+
+.lookbooks:hover h2 {
+  transform: scale(1.1);
+}
+
+/*///////////////// SPRING COLLECTION /////////////////*/
+
+.collection:hover h2 {
+  transform: translateY(-50%) scale(90%);
+  opacity: 0.8;
 }
 
 /*////////////////////////////////////////
