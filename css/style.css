@@ -58,13 +58,15 @@ header nav img {
 }
 
 .menu-toggle {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.2;
   z-index: 10;
 }
 
-.menu-toggle img {
-  display: none;
+.menu-toggle a {
+  margin-left: 10px;
 }
 
 /* MENU  */
@@ -283,6 +285,10 @@ footer a {
 
 .is-open {
   transform: translateX(0);
+}
+
+.is-hidden {
+  display: none;
 }
 
 /*////////////////////////////////////////
